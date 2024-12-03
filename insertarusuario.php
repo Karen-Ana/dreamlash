@@ -10,5 +10,5 @@ include "./../pages/config.php";
 $peticion ="INSERT INTO lash VALUES(NULL, '$n', '$cr', '$cn')";
 $respuesta = mysqli_query($conexion, $peticion);
 
-header("location:index.php");
+header("location:index.html");
 ?>
